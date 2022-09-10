@@ -1,0 +1,21 @@
+{
+  "name": "enuke_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server",
+    "dev": "supervisor server"
+  },
+  "author": "Aayush Yamdagni",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.0",
+    "supervisor": "^0.12.0"
+  }
+}
